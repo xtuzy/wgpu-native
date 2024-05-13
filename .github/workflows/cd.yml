@@ -37,7 +37,7 @@ jobs:
   maccatalyst-x86_64:
     # Config
     name: release - maccatalyst-x86_64
-    runs-on: macos-latest
+    runs-on: macos-14
     env:
       TARGET: x86_64-apple-ios-macabi
       ARCHIVE_NAME: wgpu-maccatalyst-x86_64
@@ -73,7 +73,7 @@ jobs:
   maccatalyst-aarch64:
     # Config
     name: release - maccatalyst-aarch64
-    runs-on: macos-latest
+    runs-on: macos-14
     env:
       TARGET: aarch64-apple-ios-macabi
       ARCHIVE_NAME: wgpu-maccatalyst-aarch64
